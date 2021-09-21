@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Glory', sans-serif;
+    background: linear-gradient(#e9ae0c, #e9e8e1);
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px 5px rgb(66, 64, 64);
+}
+
+form h1{
+    text-align: center;
+    color: rgb(226, 156, 27);
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+form  input[type="email"], input[type="password"], input[type="text"]{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;   
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(226, 156, 27);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
